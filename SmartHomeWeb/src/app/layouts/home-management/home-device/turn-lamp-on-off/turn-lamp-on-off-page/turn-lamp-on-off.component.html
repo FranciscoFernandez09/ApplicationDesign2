@@ -1,0 +1,17 @@
+<app-main-menu>
+  <div class="space-bottom">
+    <app-load-homes (onHomeSubmit)="onHomeFormSubmit($event)"></app-load-homes>
+    <app-server-response-visualization [isSuccess]="isHomeSuccess"
+                                       [message]="messageHome"></app-server-response-visualization>
+  </div>
+  <app-form (formSubmit)="onDeviceFormSubmit($event)" *ngIf="hasSelectedHome" [buttonText]="'Select'"
+            [formElements]="deviceFormElements"></app-form>
+
+  <div *ngIf="hasSelectedDevice" class="button-container">
+    <button (click)="onActionFormSubmit('TurnOn')" class="btn btn-turn-on">Turn On</button>
+    <button (click)="onActionFormSubmit('TurnOff')" class="btn btn-turn-off">Turn Off</button>
+  </div>
+  <app-server-response-visualization [isSuccess]="isDeviceSuccess"
+                                     [message]="messageDevice"></app-server-response-visualization>
+</app-main-menu>
+

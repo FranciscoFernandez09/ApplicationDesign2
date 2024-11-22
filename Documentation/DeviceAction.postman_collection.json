@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "9740ec4a-1277-4700-9a8c-4ede92aca89d",
+		"name": "DeviceAction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38557550",
+		"_collection_link": "https://smarthome-6598.postman.co/workspace/SmartHome-Workspace~52ce7d08-7291-4580-893c-09d982328167/collection/38148005-9740ec4a-1277-4700-9a8c-4ede92aca89d?action=share&source=collection_link&creator=38557550"
+	},
+	"item": [
+		{
+			"name": "PersonDetectionAction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7291/cameras/{{cameraId}}/personDetection",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7291",
+					"path": [
+						"cameras",
+						"{{cameraId}}",
+						"personDetection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CameraMovementDetectionAction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7291/cameras/{{cameraId}}/movementDetection",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7291",
+					"path": [
+						"cameras",
+						"{{cameraId}}",
+						"movementDetection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OpenWindowSensor",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7291/windowSensors/{{windowSensorId}}/open",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7291",
+					"path": [
+						"windowSensors",
+						"{{windowSensorId}}",
+						"open"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CloseWindowSensor",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7291/windowSensors/{{windowSensorId}}/close",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7291",
+					"path": [
+						"windowSensors",
+						"{{windowSensorId}}",
+						"close"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MotionSensorMovementDetection",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7291/motionSensors/{{motionSensorId}}/movementDetection",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7291",
+					"path": [
+						"motionSensors",
+						"{{motionSensorId}}",
+						"movementDetection"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "windowSensorId",
+			"value": "37087dfa-638a-43c3-9173-0a9d82d0a7c9",
+			"type": "default"
+		},
+		{
+			"key": "cameraId",
+			"value": "47d458de-2db7-4789-9fd0-0d61aab9a901",
+			"type": "default"
+		},
+		{
+			"key": "memberOfSuperAdminHome",
+			"value": "b7bd811e-4dda-47d2-9db5-2260fd7af724",
+			"type": "default"
+		},
+		{
+			"key": "smartLampId",
+			"value": "291cc423-d3ac-4114-b4ef-3e5d532439c7",
+			"type": "default"
+		}
+	]
+}

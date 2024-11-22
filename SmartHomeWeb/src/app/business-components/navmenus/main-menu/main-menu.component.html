@@ -1,0 +1,20 @@
+<app-navmenu [elements]="this.elements"></app-navmenu>
+
+<div class="main-content">
+  <ng-content></ng-content>
+</div>
+
+<div class="logout-container">
+  <a (click)="logout()">Logout</a>
+</div>
+
+<div
+  *ngIf="userRole === RoleConstants.homeOwnerId || userRole === RoleConstants.adminHomeOwnerId || userRole === RoleConstants.companyAndHomeOwnerId"
+  class="notification-container">
+  <a (click)="navigateToNotifications()">Notifications</a>
+</div>
+
+<div *ngIf="getRoleName() !== 'Unknown Role'" class="role-container">
+  <span> Role: {{ getRoleName() }}</span><br>
+  <span> User: {{ name }}</span>
+</div>

@@ -1,0 +1,25 @@
+<app-main-menu>
+
+  <div class="horizontal-container">
+
+    <app-form (formSubmit)="onFormSubmit($event)" [buttonText]="'Get Notifications'" [formElements]="formElements"
+              [formTitle]="'Filter notifications'"></app-form>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th *ngFor="let header of headers">{{ header }}</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let notification of notifications">
+        <td>{{ notification.event }}</td>
+        <td>{{ notification.device }}</td>
+        <td>{{ notification.date | date:'yyyy-MM-dd' }}</td>
+        <td>{{ notification.isRead }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</app-main-menu>
+<app-server-response-visualization [isSuccess]="isDeviceSuccess"
+                                   [message]="messageDevice"></app-server-response-visualization>

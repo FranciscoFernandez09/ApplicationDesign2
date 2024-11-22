@@ -1,0 +1,33 @@
+﻿<app-main-menu>
+  <div class="space-bottom">
+    <app-load-homes (onHomeSubmit)="onHomeSubmit($event)"></app-load-homes>
+    <app-server-response-visualization [isSuccess]="isHomeSuccess"
+                                       [message]="messageHome"></app-server-response-visualization>
+  </div>
+  <app-form
+    (formSubmit)="onRoomSubmit($event)" *ngIf="hasSelectedHome" [buttonText]="'Get'" [formElements]="roomElements">
+  </app-form>
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+  <table *ngIf="hasSelectedRoom" class="table center-table">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Model</th>
+      <th>Main Image</th>
+      <th>Connected</th>
+      <th>Type</th>
+      <th>Active</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let device of devices">
+      <td>{{ device.name == null ? '-' : device.name }}</td>
+      <td>{{ device.model }}</td>
+      <td><img alt="{{ device.mainImage }}" height="80" ngSrc="{{device.mainImage}}" width="80"></td>
+      <td>{{ device.isConnected }}</td>
+      <td>{{ device.type }}</td>
+      <td>{{ (device.type === 'SmartLamp' || device.type === 'WindowSensor') ? device.isActive : '-' }}</td>
+    </tr>
+    </tbody>
+  </table>
+</app-main-menu>

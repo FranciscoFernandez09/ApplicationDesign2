@@ -1,0 +1,23 @@
+﻿<app-main-menu>
+  <div class="horizontal-container">
+    <app-table-navigator
+      (pageChange)="onFormSubmit($event)" [buttonText]="'Filter'" [formElements]="formElements">
+    </app-table-navigator>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th *ngFor="let header of headers">{{ header }}</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.createdAt | date:'yyyy-MM-dd HH:mm' }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.lastName }}</td>
+        <td>{{ user.role }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+</app-main-menu>

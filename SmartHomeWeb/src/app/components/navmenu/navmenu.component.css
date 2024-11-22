@@ -1,0 +1,103 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+nav {
+  display: block;
+  position: fixed; /* Fix the position to the left */
+  top: 0;
+  left: 0;
+  height: 100%; /* Full height of the viewport */
+  width: 200px; /* Adjust the width as needed */
+  background-color: var(--color-table-header); /* Friendlier black */
+  z-index: 1000; /* Ensure it is above other elements */
+  transform: translateX(0); /* Ensure it is visible */
+  animation: slideIn 0.5s forwards; /* Apply the slide-in animation */
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+nav .nav-container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+nav .nav-container::-webkit-scrollbar-track {
+  background: #333; /* Dark gray background for the track */
+}
+
+nav .nav-container::-webkit-scrollbar-thumb {
+  background-color: #555; /* Darker gray for the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 2px solid #333; /* Border to match the track */
+}
+
+/* Custom scrollbar styles for Firefox */
+nav .nav-container {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #555 #333; /* Thumb color and track color */
+}
+
+nav .nav-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px); /* Adjust height as needed */
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+  overflow-x: hidden;
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  flex-grow: 1; /* Allow the list to grow and fill the container */
+}
+
+nav ul li {
+  margin-bottom: 2px; /* Add some space between the links */
+}
+
+nav ul li a {
+  display: block;
+  padding: 8px 16px; /* Adjust padding to make features smaller */
+  color: white;
+  background-color: var(--color-table-header); /* Friendlier black */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px; /* Rounded corners */
+  text-align: left; /* Align text to the left */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition */
+  word-wrap: break-word; /* Break long words */
+  overflow-wrap: break-word; /* Break long words */
+  white-space: normal; /* Allow text to wrap */
+  line-height: 1.5; /* Adjust line height for better readability */
+}
+
+nav ul li a:hover {
+  background-color: #055ab3; /* Slightly darker */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+nav ul li a.active {
+  background-color: #055ab3; /* Highlight color for active item */
+}
+
+.title {
+  font-size: 1.5rem;
+  border-bottom: 3px solid;
+  padding-bottom: 10px;
+  color: var(--color-background);
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.white-divider-big {
+  border-top: 3px solid white;
+}
+
+.white-divider {
+  border-top: 1px solid white;
+}

@@ -1,0 +1,21 @@
+﻿<app-main-menu>
+  <div class="space-bottom">
+    <app-load-homes (onHomeSubmit)="onFormSubmit($event)"></app-load-homes>
+    <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+  </div>
+  <table *ngIf="hasSelectedHome" class="table center-table">
+    <thead>
+    <tr>
+      <th>Email</th>
+      <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let member of members">
+      <td>{{ member.email }}</td>
+      <td>{{ member.fullName }}</td>
+    </tr>
+    </tbody>
+  </table>
+
+</app-main-menu>

@@ -1,0 +1,10 @@
+.horizontal-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+table {
+  margin: 0 auto;
+}

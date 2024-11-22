@@ -1,0 +1,15 @@
+.horizontal-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.horizontal-container app-table-navigator {
+  margin-right: 20px;
+}
+
+table {
+  margin: 0 auto;
+}

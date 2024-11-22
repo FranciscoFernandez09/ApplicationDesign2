@@ -1,0 +1,27 @@
+﻿<app-main-menu>
+  <div class="horizontal-container">
+    <app-table-navigator (pageChange)="onPageChange($event)" [buttonText]="'Filter'"
+                         [formElements]="userElements"></app-table-navigator>
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">Full name</th>
+        <th scope="col">Created at</th>
+        <th scope="col">Action</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let admin of users">
+        <td>{{ admin.name }} {{ admin.lastName }}</td>
+        <td>{{ admin.createdAt | date: 'dd/MM/yyyy' }}</td>
+        <td>
+          <button (click)="deleteAdmin(admin.id)" class="cancellation-button">Delete</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+
+</app-main-menu>

@@ -1,0 +1,50 @@
+<form (ngSubmit)="onSubmit()">
+  <h1 *ngIf="formTitle || formTitle !== ''">{{ formTitle }}</h1>
+  <div *ngFor="let element of formElements">
+    <label>{{ element.label }}</label>
+    <ng-container *ngIf="element.type === 'text'">
+      <input [(ngModel)]="formData[element.name]" [name]="element.name" [required]="element.required || false"
+             type="text"/>
+    </ng-container>
+    <ng-container *ngIf="element.type === 'select'">
+      <select [(ngModel)]="formData[element.name]" [name]="element.name" [required]="element.required || false">
+        <option *ngFor="let option of element.options">{{ option }}</option>
+      </select>
+    </ng-container>
+    <ng-container *ngIf="element.type === 'number'">
+      <input [(ngModel)]="formData[element.name]" [name]="element.name" [required]="element.required || false"
+             type="number"/>
+    </ng-container>
+    <ng-container *ngIf="element.type === 'radio'">
+      <div *ngFor="let option of element.options">
+        <input [(ngModel)]="formData[element.name]" [name]="element.name" [required]="element.required || false"
+               [value]="option"
+               type="radio"/> {{ option }}
+      </div>
+    </ng-container>
+    <ng-container *ngIf="element.type === 'password'">
+      <input [(ngModel)]="formData[element.name]" [name]="element.name" [required]="element.required || false"
+             type="password"/>
+    </ng-container>
+    <ng-container *ngIf="element.type === 'checkbox'">
+      <div *ngFor="let option of element.options">
+        <input [(ngModel)]="formData[element.name]" [name]="option" [required]="element.required || false"
+               [value]="option"
+               type="checkbox"/> {{ option }}
+      </div>
+    </ng-container>
+    <ng-container *ngIf="element.type === 'select-with-values'">
+      <select [(ngModel)]="formData[element.name]" [name]="element.name" [required]="element.required || false">
+        <option *ngFor="let option of element.options; let i = index"
+                [value]="element.values ? element.values[i]: option">{{ option }}
+        </option>
+      </select>
+    </ng-container>
+    <ng-container *ngIf="element.type === 'date'">
+      <input [(ngModel)]="formData[element.name]" [name]="element.name"
+             [required]="element.required || false"
+             [value]="formData[element.name] | date:'yyyy-MM-dd'" type="date"/>
+    </ng-container>
+  </div>
+  <button [ngStyle]="{'background-color': buttonColor}"> {{ buttonText }}</button>
+</form>

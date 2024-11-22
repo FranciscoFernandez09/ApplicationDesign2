@@ -1,0 +1,24 @@
+<div class="table-navigator">
+  <ng-container *ngIf="formElements.length !== 0">
+    <app-form
+      (formSubmit)="onFormSubmit($event)" [buttonText]="buttonText" [formElements]="formElements"
+      [formTitle]="'Filter'">
+    </app-form>
+  </ng-container>
+  <div class="table-navigator-controls">
+    <div>
+      <button (click)="prevPage()" class="table-navigator-button">
+        &lt;
+      </button>
+      <span>{{ page }}</span>
+      <button (click)="nextPage()" class="table-navigator-button">
+        &gt;
+      </button>
+    </div>
+    <div>
+      <select (change)="onLimitChange(limit)" [(ngModel)]="limit" class="table-navigator-select">
+        <option *ngFor="let option of [5, 10, 20, 50]" [value]="option">{{ option }}</option>
+      </select>
+    </div>
+  </div>
+</div>

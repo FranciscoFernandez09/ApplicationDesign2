@@ -1,0 +1,8 @@
+FROM mcr.microsoft.com/azure-sql-edge
+
+ENV SA_PASSWORD=Password1
+ENV ACCEPT_EULA=Y
+
+EXPOSE 1433
+
+CMD ["sqlservr"]

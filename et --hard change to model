@@ -1,0 +1,493 @@
+[33mcommit 1bc9dea032754fef4f6d692f108258b3308921ed[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfix-companyowner-front[m[33m, [m[1;31morigin/fix-companyowner-front[m[33m)[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Thu Nov 7 22:04:41 2024 -0300
+
+    welcome with differents menu, not works
+
+[33mcommit d3374649e88d50365183e31402200e2d4405d22a[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Thu Nov 7 21:46:49 2024 -0300
+
+    change to model
+
+[33mcommit 33f8fe26ec7aeee1b6c77addc8267dbc03625462[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 20:28:04 2024 -0300
+
+    refactor
+
+[33mcommit 2241c9e8466d00857547e08b3b68363669183603[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 20:26:41 2024 -0300
+
+    refactor on front end visual things and change role did
+
+[33mcommit 5bb18045b37a69e105aceb4ad854e2cafb03d708[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 20:00:13 2024 -0300
+
+    refactor
+
+[33mcommit a151996fd5bd80ef9486c3016950be86f46c9b23[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 19:58:13 2024 -0300
+
+    created company with reflections working ok
+
+[33mcommit 62d0499163f70e1bec870f457a312a4a055ec6a5[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 19:41:27 2024 -0300
+
+    resolve merge
+
+[33mcommit da9305695eb1dd93aa21a970290c3f68f3f6a2b7[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 19:41:07 2024 -0300
+
+    resolve merge
+
+[33mcommit 0ca8d9da5010cd5fb72e6fd76e62c570d186e9a0[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Thu Nov 7 19:33:37 2024 -0300
+
+    refactor comment
+
+[33mcommit d137ce345d703c52e44b72b9851af3de52d14da3[m
+Merge: 9370209d a3195af6
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Thu Nov 7 19:32:31 2024 -0300
+
+    merge develop
+
+[33mcommit 9370209de72fca1ed3b61bad4db222fc0e93b960[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 19:23:07 2024 -0300
+
+    refactor front create company
+
+[33mcommit ebbde965782f318a42475858a4f87e034685deb6[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 19:10:52 2024 -0300
+
+    fix assembly errores
+
+[33mcommit 85271cd851b05ef2b0f7d8326b22b17875e499c7[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 18:58:22 2024 -0300
+
+    model validators to dto
+
+[33mcommit 24ea42f9e9a493fea436845f12d6138a5100d173[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 18:39:51 2024 -0300
+
+    refactor in arquitecure
+
+[33mcommit a3195af65c84b260be715192f82f5db2b2ed786c[m[33m ([m[1;33mtag: [m[1;33m0.0.105[m[33m, [m[1;31morigin/develop[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mdevelop[m[33m)[m
+Merge: 31939713 334d9daf
+Author: Joaquin Mesa <89847220+jMesaGan@users.noreply.github.com>
+Date:   Thu Nov 7 18:20:56 2024 -0300
+
+    Merge pull request #109 from IngSoft-DA2/feature-admin-front
+    
+    Feature admin front
+
+[33mcommit 334d9dafc9f6d8e2230d961e3a3ba738bf801ede[m[33m ([m[1;31morigin/feature-admin-front[m[33m)[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Thu Nov 7 18:16:03 2024 -0300
+
+    Admin service end
+
+[33mcommit 6a16642249e07838a69cf3468283c658ee868722[m
+Merge: 507aa78b c36e6fff
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 17:13:30 2024 -0300
+
+    merge
+
+[33mcommit c871792e2d49a82c62afa00b9ce10460db8043aa[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Thu Nov 7 16:51:42 2024 -0300
+
+    refactor and clean code
+
+[33mcommit 507aa78b9af473776c111fe8a9a3405bba5db8a1[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 16:46:59 2024 -0300
+
+    models
+
+[33mcommit a44fe46e5385f73c19cb6fe980cc77e8e60a1754[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Thu Nov 7 16:46:36 2024 -0300
+
+    admin service
+
+[33mcommit 511451eb4f4b56c4d763e2f0eeb0b69085f2e782[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Thu Nov 7 16:22:37 2024 -0300
+
+    Feat: added select with values in the form component
+
+[33mcommit 8572542d848853070c33ae55d933ffcd13ba73a1[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Thu Nov 7 16:04:15 2024 -0300
+
+    drop down
+
+[33mcommit c36e6fffbdbe9de1e442820c170b502fc6646337[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 15:58:42 2024 -0300
+
+    [GREEN] getValidatorByGuid on controller, missed commits to service test
+
+[33mcommit 5971498e55a2e5c58d5ce0795560dd45b2e2d8e3[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Thu Nov 7 15:41:08 2024 -0300
+
+    [RED] getValidatorByGuid on controller
+
+[33mcommit a2677a7629bef677a785b0b93ce3e1e64e7bfde0[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Thu Nov 7 14:45:07 2024 -0300
+
+    Change role
+
+[33mcommit db35c03fd55941b8c06b9d4d934a9b9ee9a99e4b[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Wed Nov 6 21:36:49 2024 -0300
+
+    added option
+
+[33mcommit 55f2b8c10d72c3374198a728a74c080c8688336a[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Wed Nov 6 21:06:02 2024 -0300
+
+    fix on create companyt
+
+[33mcommit 3dca9f7cab5088a8ad478adbbf43047e0d7bb56c[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 18:36:29 2024 -0300
+
+    finish get companmies
+
+[33mcommit a2168d6bc04ebeda8a6c6beed29ba6cad518652a[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 17:39:19 2024 -0300
+
+    delete main layaut generic
+
+[33mcommit 319397132cbe21a4ca0b1a9ceee92b1de0da723a[m[33m ([m[1;33mtag: [m[1;33m0.0.104[m[33m)[m
+Merge: 230f0695 a85ec5e9
+Author: Agustin Varela <142271754+agustin2606@users.noreply.github.com>
+Date:   Wed Nov 6 17:28:36 2024 -0300
+
+    Merge pull request #108 from IngSoft-DA2/feature-admin-front
+    
+    Feature admin front
+
+[33mcommit a85ec5e9a417cc6b1be6e56eb875550e35aeb91e[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 17:25:14 2024 -0300
+
+    Any features admin servie
+
+[33mcommit c8ee0119eb165092d1158b26346eef24ec7064ed[m
+Merge: 9dd71d1a 230f0695
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 17:23:28 2024 -0300
+
+    merged with develop
+
+[33mcommit 9dd71d1a608cb2fe62cb5400c74603f9c4978dad[m
+Merge: 0bac2e9c 323a7cbb
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 17:16:11 2024 -0300
+
+    Merge branch 'main' of https://github.com/IngSoft-DA2/301270_303129 into feature-admin-front
+
+[33mcommit 0bac2e9cf33abc3a22d6371c8067a214256103da[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 17:04:04 2024 -0300
+
+    [refactor] clean code
+
+[33mcommit c789f10d4acfeac60060b4c607ce93a447f4e75e[m
+Merge: d4723ad6 90daf61e
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 17:02:20 2024 -0300
+
+    merge develop
+
+[33mcommit d4723ad6a6933a34b6a149a41aa443fd1520a8c8[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Wed Nov 6 16:59:31 2024 -0300
+
+    Created get users pagination and table navigator component
+
+[33mcommit 230f06956283e0b0d3daca75fbfe912d6475ec1b[m[33m ([m[1;33mtag: [m[1;33m0.0.103[m[33m)[m
+Merge: 90daf61e 6467f476
+Author: Agustin Varela <142271754+agustin2606@users.noreply.github.com>
+Date:   Wed Nov 6 16:14:55 2024 -0300
+
+    Merge pull request #107 from IngSoft-DA2/feature-company-owner-service-frontend
+    
+    Feature company owner service frontend
+
+[33mcommit f3ef8c9544a5414bfdc29ace367370b87fd54b93[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 16:12:18 2024 -0300
+
+    Not works table navigator
+
+[33mcommit 6467f4769308dd7b74df16bf3f7bbda82d91e0ab[m
+Merge: 1bd8dcd6 90daf61e
+Author: Joaquin Mesa <89847220+jMesaGan@users.noreply.github.com>
+Date:   Wed Nov 6 15:32:47 2024 -0300
+
+    Merge branch 'develop' into feature-company-owner-service-frontend
+
+[33mcommit 1bd8dcd6b0ba47b5c9de515d8611408d867857e5[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Wed Nov 6 15:31:34 2024 -0300
+
+    Feat: Added guard to paths
+
+[33mcommit bb4e46b2a00e964abf07734da33a82d25e10ec7b[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Wed Nov 6 15:29:08 2024 -0300
+
+    Fix: rename service and deleted .spec files
+
+[33mcommit f8a7e97d911d28686a4a85246555cf9538477024[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Wed Nov 6 15:27:25 2024 -0300
+
+    Refactor: Change app-form-component to app-form renamed the company service
+
+[33mcommit 683d0b63f0997a9b6aff68d8a5f9447652896c78[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Wed Nov 6 15:18:53 2024 -0300
+
+    Fix: routes and URIs
+
+[33mcommit 5cc740e471f59b63d9fc8cb680a02168becf5962[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Wed Nov 6 15:09:51 2024 -0300
+
+    Feat: add suscribre to create-role page
+
+[33mcommit 8fcbcf825bf14460ab224c4a4b66c4c09659e4a2[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 15:08:17 2024 -0300
+
+    [RED] get users
+
+[33mcommit cf8df7a6098901ec9d1f54ad90258291c143a436[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Wed Nov 6 15:07:45 2024 -0300
+
+    Feat: created patch in api-repository, created change-role page and service
+
+[33mcommit 7b9b13a696589bd009406ebc34d966904d3d79e3[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Wed Nov 6 14:13:21 2024 -0300
+
+    [GREEN] create company owner
+
+[33mcommit 25179a25f101d9b1a2172185fe66582e851ed5e5[m
+Author: Agustin Varela Andrade <agustinvarela2606@gmail.com>
+Date:   Tue Nov 5 21:33:15 2024 -0300
+
+    devices pages added
+
+[33mcommit 90daf61e70b0360bde6a5cc4c968830e42668cab[m[33m ([m[1;33mtag: [m[1;33m0.0.102[m[33m)[m
+Merge: a13b065f 14887715
+Author: Francisco Fernandez <127800927+FranciscoFernandez09@users.noreply.github.com>
+Date:   Tue Nov 5 19:37:44 2024 -0300
+
+    Merge pull request #106 from IngSoft-DA2/refactor-take-out-company-id-from-request
+    
+    [REFACTOR]: Taken out company id from the request
+
+[33mcommit 1488771526646ca82ac1266ff1698f68db890af2[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 19:34:57 2024 -0300
+
+    [REFACTOR]: Dotnet format, rename args and exceptions messages, fix tests
+
+[33mcommit 5003df21379763fd0e27c0ce5878e118f073baeb[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 19:24:40 2024 -0300
+
+    [REFACTOR]: Fix warnings, and applied dotnet format
+
+[33mcommit c80d5aa25046af85fd37b4e4e5f8f63ca173a3a7[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 19:18:05 2024 -0300
+
+    [REFACTOR]: Taken out company id from the request
+
+[33mcommit b0cf413510d20a1fde053d9f789b47ec9691e29b[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 18:42:13 2024 -0300
+
+    Fix: changes in creation of company and minor tweaks from testing the app
+
+[33mcommit 40e11db2e4cedc925cc5ff41036f3f652d5afbad[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 18:13:13 2024 -0300
+
+    [GREEN]: refactor forms
+
+[33mcommit 8e19ec899dd1fffca24b7dd53761694d14dc95cf[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 17:33:19 2024 -0300
+
+    delete .spec
+
+[33mcommit a2f8b0f3d4c9bb62b82770c6a269c61be4ffc077[m
+Merge: 6dc48376 a13b065f
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 17:31:50 2024 -0300
+
+    Merge branch 'develop' into feature-company-owner-service-frontend
+
+[33mcommit 6dc48376ade0bc87c91fefcaeb58c84469562652[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 17:31:35 2024 -0300
+
+    Fix changes of routing in create company features
+
+[33mcommit a13b065f2db25025b2518f3b412348664b69d78d[m[33m ([m[1;33mtag: [m[1;33m0.0.101[m[33m)[m
+Merge: 854d34b6 fc800ae5
+Author: Agustin Varela <142271754+agustin2606@users.noreply.github.com>
+Date:   Tue Nov 5 17:29:54 2024 -0300
+
+    Merge pull request #105 from IngSoft-DA2/feature-session
+    
+    Feature session
+
+[33mcommit fc800ae5f3b6348700e02cd5c289fee72a52c436[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 17:24:38 2024 -0300
+
+    [GREEN] logout
+
+[33mcommit e115d65d799f5b2d39f60375374168d859b084a2[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 17:09:09 2024 -0300
+
+    [GREEN] create admin
+
+[33mcommit 175834c644993462c13d836b11816eeeb9468a11[m
+Merge: 1cbfac2b 854d34b6
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 15:38:54 2024 -0300
+
+    Merge branch 'develop' into feature-company-owner-service-frontend
+
+[33mcommit 1cbfac2b50b8de9368b3e39d06fbf68e8a89cf2f[m
+Merge: 4b4f1ed6 a20e9c31
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 15:25:28 2024 -0300
+
+    Merge branch 'develop' into feature-company-owner-service-frontend
+
+[33mcommit 854d34b65e8f052870362fb59c0f1363713044ca[m[33m ([m[1;33mtag: [m[1;33m0.0.100[m[33m)[m
+Merge: a20e9c31 4ec626e4
+Author: Francisco Fernandez <127800927+FranciscoFernandez09@users.noreply.github.com>
+Date:   Tue Nov 5 15:24:38 2024 -0300
+
+    Merge pull request #104 from IngSoft-DA2/feature-admin-front
+    
+    Feature admin front
+
+[33mcommit 4ec626e4b2cdcdf6d0d1043ec14881d213284e3f[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 15:21:09 2024 -0300
+
+    [REFACTOR] admin service front, not connected with bask
+
+[33mcommit 4b4f1ed6417051163c3d45470f3718707176551b[m
+Author: jMesaGan <89847220+jMesaGan@users.noreply.github.com>
+Date:   Tue Nov 5 15:01:52 2024 -0300
+
+    Fix components
+
+[33mcommit 164c55dbb7d95894e657a6c1c8c561a56aeaa955[m
+Merge: 652f5f27 a20e9c31
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 15:01:45 2024 -0300
+
+    [MERGE] develop
+
+[33mcommit a20e9c31eb0429c646f7b76c1f297074830eb989[m[33m ([m[1;33mtag: [m[1;33m0.0.99[m[33m)[m
+Merge: 48338829 4f718e75
+Author: Agustin Varela <142271754+agustin2606@users.noreply.github.com>
+Date:   Tue Nov 5 15:00:47 2024 -0300
+
+    Merge pull request #103 from IngSoft-DA2/reflection
+    
+    Reflection
+
+[33mcommit 4f718e75631a045c4ffee74d3708c9d5d5aa91e4[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 14:55:50 2024 -0300
+
+    [REFACTOR] csproj
+
+[33mcommit 0facd0a6936d94d3998ee7f16969a393dd8b7ba6[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 14:53:34 2024 -0300
+
+    [REFACTOR] format and clean code
+
+[33mcommit 3ee54a38d0a64c24e76243a62a104721f712037a[m
+Merge: 9731b6d8 48338829
+Author: Francisco Fernandez <127800927+FranciscoFernandez09@users.noreply.github.com>
+Date:   Tue Nov 5 14:51:08 2024 -0300
+
+    Merge branch 'develop' into reflection
+
+[33mcommit 9731b6d86ee6d3d3b4dff07704fe47c9c2f18b9c[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 14:48:29 2024 -0300
+
+    [GREEN] add migration with validatorId
+
+[33mcommit 8fce00788173f1b34cde00e3a9f71cf788497707[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 14:43:36 2024 -0300
+
+    [GREEN] validator
+
+[33mcommit bcd54a0a3b92ebd363242079a08ad5c88afc73c0[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Tue Nov 5 14:30:15 2024 -0300
+
+    [GREEN] model validator
+
+[33mcommit 652f5f27825fd386243ed6f55ab08e28eefdd64e[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Mon Nov 4 20:28:48 2024 -0300
+
+    delete admin not woeks
+
+[33mcommit 71a73d70d21cfe1a5d080e43d95f9cd33b4fbd9f[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Mon Nov 4 19:50:54 2024 -0300
+
+    create admin, button not works
+
+[33mcommit 36d4a70fe78f77e111b17c5dbcbc6fe7e89795d5[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Mon Nov 4 19:49:18 2024 -0300
+
+    create admin, button not works
+
+[33mcommit 491118b05b857062ee593e81416fc0160a95dda2[m
+Author: Francisco Fernandez <pacofernandez.200@gmail.com>
+Date:   Mon Nov 4 19:06:27 2024 -0300
+
+    [REFACTOR] nav admin

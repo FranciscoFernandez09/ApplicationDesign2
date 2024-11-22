@@ -1,0 +1,5 @@
+﻿<app-form (formSubmit)="onFormSubmit($event)" [buttonText]="'SignIn'" [formElements]="formElements"></app-form>
+<app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+<div class="button-container">
+  <button (click)="navigateToLogin()">Go to Login</button>
+</div>

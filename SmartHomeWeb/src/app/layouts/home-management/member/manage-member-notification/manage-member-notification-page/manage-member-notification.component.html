@@ -1,0 +1,12 @@
+<app-main-menu>
+  <div class="space-bottom">
+    <app-load-homes (onHomeSubmit)="onHomeSubmit($event)"></app-load-homes>
+    <app-server-response-visualization [isSuccess]="isSuccessHome"
+                                       [message]="messageHome"></app-server-response-visualization>
+  </div>
+
+  <app-form (formSubmit)="onFormSubmit($event)" *ngIf="hasSelectedHome" [buttonText]="'Modify'"
+            [formElements]="formElements"></app-form>
+  <app-server-response-visualization [isSuccess]="isSuccess"
+                                     [message]="message"></app-server-response-visualization>
+</app-main-menu>

@@ -1,0 +1,4 @@
+<app-main-menu>
+  <app-create-device (deviceSubmit)="onDeviceSubmit($event)" [formTitle]="'Create Window Sensor'"></app-create-device>
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+</app-main-menu>

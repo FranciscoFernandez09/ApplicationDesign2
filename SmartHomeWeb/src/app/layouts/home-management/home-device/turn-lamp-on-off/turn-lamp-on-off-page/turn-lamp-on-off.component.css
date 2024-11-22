@@ -1,0 +1,29 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-turn-on {
+  background-color: var(--color-button-background);
+}
+
+.btn-turn-off {
+  background-color: var(--color-delete);
+}
+
+.btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}

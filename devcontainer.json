@@ -1,0 +1,14 @@
+{
+  "name": "SmartHome Dev Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "sqlserver",
+  "workspaceFolder": "/src",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-azuretools.vscode-docker",
+    "ms-dotnettools.csharp"
+  ],
+  "postCreateCommand": "dotnet restore"
+}

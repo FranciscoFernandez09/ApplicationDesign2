@@ -1,0 +1,4 @@
+<app-form (formSubmit)="onFormSubmit($event)" [buttonText]="'Select'" [formElements]="homeFormElements"></app-form>
+<ng-container *ngIf="message !== ''">
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+</ng-container>

@@ -1,0 +1,23 @@
+﻿<app-main-menu>
+  <div class="horizontal-container">
+    <app-table-navigator
+      (pageChange)="onFormSubmit($event)" [buttonText]="'Filter'" [formElements]="formElements">
+    </app-table-navigator>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th *ngFor="let header of headers">{{ header }}</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let device of devices">
+        <td>{{ device.name }}</td>
+        <td>{{ device.model }}</td>
+        <td><img alt="{{ device.mainImageUrl }}" height="80" ngSrc="{{device.mainImageUrl}}" width="80"></td>
+        <td>{{ device.companyOwnerName }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+</app-main-menu>

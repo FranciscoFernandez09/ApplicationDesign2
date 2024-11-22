@@ -1,0 +1,29 @@
+﻿<app-main-menu>
+  <app-load-homes (onHomeSubmit)="onHomeSubmit($event)"></app-load-homes>
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+  <div class="vertical-container">
+    <app-table-navigator (pageChange)="onPageChange($event)" [formElements]="filterElements"></app-table-navigator>
+    <table class="table table-striped ">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Model</th>
+        <th>Main Image</th>
+        <th>Owner</th>
+        <th>Add</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let device of devices">
+        <td>{{ device.name }}</td>
+        <td>{{ device.model }}</td>
+        <td><img alt="{{device.mainImageUrl}}" height="80" ngSrc="{{device.mainImageUrl}}" width="80"></td>
+        <td>{{ device.companyOwnerName }}</td>
+        <td>
+          <button (click)="addDevice(device.id)" class="confirmation-button">+</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</app-main-menu>

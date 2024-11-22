@@ -1,0 +1,17 @@
+<nav>
+  <h3 class="title">Smart Home</h3>
+  <div class="nav-container">
+    <ul>
+      <ng-container *ngFor="let item of elements">
+        <li *ngIf="item.type === 'divider-big' || item.type === 'divider'; else menuItem">
+          <hr [ngClass]="{'white-divider-big': item.type === 'divider-big', 'white-divider': item.type === 'divider'}">
+        </li>
+        <ng-template #menuItem>
+          <li>
+            <a (click)="navigate(item.url)" [ngClass]="{'active': isActive(item.url)}">{{ item.name }}</a>
+          </li>
+        </ng-template>
+      </ng-container>
+    </ul>
+  </div>
+</nav>

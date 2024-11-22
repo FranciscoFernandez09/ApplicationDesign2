@@ -1,0 +1,63 @@
+.main-content {
+  margin-left: 200px; /* Same width as the nav menu */
+  padding: 50px; /* Optional: Add some padding */
+}
+
+.logout-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.logout-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: var(--color-table-header); /* Button color */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition */
+}
+
+.logout-container a:hover {
+  background-color: #055ab3;
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.notification-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: var(--color-table-header); /* Button color */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition */
+}
+
+.notification-container a:hover {
+  background-color: #055ab3;
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.role-container {
+  position: fixed;
+  top: 20px;
+  left: 210px;
+  padding: 10px 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.role-container span {
+  display: inline-block;
+  color: #333333; /* Dark text color */
+  font-weight: bold;
+}

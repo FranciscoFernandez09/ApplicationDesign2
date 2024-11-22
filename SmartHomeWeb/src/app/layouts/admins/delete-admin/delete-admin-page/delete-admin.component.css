@@ -1,0 +1,12 @@
+.horizontal-container {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+app-form button {
+  background-color: var(--color-cancellation) !important;
+}
+
+app-table-navigator {
+  margin-right: 20px;
+}

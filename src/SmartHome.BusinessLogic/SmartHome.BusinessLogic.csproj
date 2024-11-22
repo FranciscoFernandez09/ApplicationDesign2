@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="ModeloValidador.Abstracciones">
+            <HintPath>..\Validators\InterfaceValidator\ModeloValidador.Abstracciones.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Importers\DevicesImporter\DevicesImporter.csproj"/>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+<app-main-menu>
+  <div class="space-bottom">
+    <app-form (formSubmit)="onRefFormSubmit($event)" [buttonText]="'Select'"
+              [formElements]="reflectionFormElements"></app-form>
+    <app-server-response-visualization [isSuccess]="IsRefSuccess"
+                                       [message]="messageRef"></app-server-response-visualization>
+  </div>
+  <app-form (formSubmit)="onParamsFormSubmit($event)" *ngIf="hasSelectedRef" [buttonText]="'Select'"
+            [formElements]="parametersFormElements"></app-form>
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+</app-main-menu>

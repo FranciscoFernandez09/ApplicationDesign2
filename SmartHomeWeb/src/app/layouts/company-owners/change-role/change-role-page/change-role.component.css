@@ -1,0 +1,17 @@
+.centered-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.centered-large-button {
+  margin-top: 10px;
+}
+
+app-server-response-visualization {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

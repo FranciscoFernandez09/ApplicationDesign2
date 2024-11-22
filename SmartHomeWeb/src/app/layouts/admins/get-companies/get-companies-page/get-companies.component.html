@@ -1,0 +1,24 @@
+﻿<app-main-menu>
+  <div class="horizontal-container">
+    <app-table-navigator
+      (pageChange)="onFormSubmit($event)" [buttonText]="'Filter'" [formElements]="formElements">
+    </app-table-navigator>
+
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th *ngFor="let header of headers">{{ header }}</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let company of companies">
+        <td>{{ company.name }}</td>
+        <td>{{ company.ownerFullName }}</td>
+        <td>{{ company.ownerEmail }}</td>
+        <td>{{ company.rut }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+</app-main-menu>

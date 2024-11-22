@@ -1,0 +1,21 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1f7740;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.button-container button:hover {
+  background-color: #1c954c;
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}

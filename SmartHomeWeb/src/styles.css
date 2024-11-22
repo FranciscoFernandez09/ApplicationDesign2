@@ -1,0 +1,243 @@
+/* src/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --color-confirmation: #007bff; /* Blue */
+  --color-cancellation: #dc3545; /* Red */
+  --color-error: #dc3545; /* Red */
+  --color-delete: #c5061a; /* Red */
+  --color-background: #F2F2F2;
+  --color-text: #343a40; /* Dark Gray */
+  --color-table-header: #02336d; /* Darker Blue */
+  --color-table-row: #f1f1f1; /* Light Gray */
+  --color-table-row-hover: #e2e2e2; /* Slightly Darker Gray */
+  --color-input-border: #cccccc; /* Light Gray */
+  --color-input-focus: #007bff; /* Blue */
+  --color-button-background: #4CAF50; /* Example color */
+  --color-button-hover: #45A049; /* Example color */
+}
+
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* General styling */
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.confirmation-button,
+.cancellation-button {
+  background-color: var(--color-confirmation);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 8px; /* Rounder corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition */
+}
+
+.confirmation-button:hover,
+.cancellation-button:hover {
+  background-color: #0056b3; /* Slightly darker blue */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.cancellation-button {
+  background-color: var(--color-cancellation);
+}
+
+.cancellation-button:hover {
+  background-color: #c82333; /* Slightly darker red */
+}
+
+.table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+  background-color: var(--color-table-header);
+  color: #ffffff;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: var(--color-table-row);
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid var(--color-table-header);
+}
+
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--color-input-border);
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: var(--color-input-focus);
+  outline: none;
+}
+
+/* New styles for checkbox */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:focus {
+  outline: 2px solid var(--color-input-focus);
+}
+
+label.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: var(--color-text);
+  margin-bottom: 20px;
+}
+
+select {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--color-input-border);
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+  appearance: none; /* Remove default styling */
+  background-color: white;
+
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Adjusted position */
+  background-size: 16px;
+}
+
+select:focus {
+  border-color: var(--color-input-focus);
+  outline: none;
+}
+
+.filter-message {
+  color: var(--color-text);
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.centered-large-button {
+  padding: 15px 30px;
+  background-color: #40a544;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.centered-large-button:hover {
+  background-color: #309330;
+  transform: scale(1.05);
+}
+
+app-exception-visualization, app-success-visualization, app-server-response-visualization {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+}
+
+.space-bottom {
+  padding-bottom: 20px;
+}

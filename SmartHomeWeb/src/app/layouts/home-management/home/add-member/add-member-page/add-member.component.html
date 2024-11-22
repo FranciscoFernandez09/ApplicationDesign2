@@ -1,0 +1,4 @@
+﻿<app-main-menu>
+  <app-form (formSubmit)="onFormSubmit($event)" [buttonText]="'Add'" [formElements]="formElements"></app-form>
+  <app-server-response-visualization [isSuccess]="isSuccess" [message]="message"></app-server-response-visualization>
+</app-main-menu>

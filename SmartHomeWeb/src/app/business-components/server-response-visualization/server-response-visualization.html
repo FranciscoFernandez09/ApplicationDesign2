@@ -1,0 +1,6 @@
+<ng-container *ngIf="isSuccess">
+  <app-success-visualization [text]="message"></app-success-visualization>
+</ng-container>
+<ng-container *ngIf="!isSuccess">
+  <app-exception-visualization [text]="message"></app-exception-visualization>
+</ng-container>
